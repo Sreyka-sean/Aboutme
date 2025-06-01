@@ -1,9 +1,10 @@
 body { 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
+    background-color:black;
     color: #333;    
     margin: 0;
     padding: 0;
+
 }
 h1 {
     color: blue;
@@ -31,6 +32,7 @@ p {
     line-height: 1.6;
     margin: 20px auto;
     max-width: 600px;
+    color: white;
 }
 ul {
     list-style-type: none;
@@ -49,7 +51,7 @@ li {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 20px;
-    background-color: #007bff;
+    background-color:burlywood;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(4, 0, 0, 0.1);
@@ -60,14 +62,14 @@ li {
     max-width: 800px;
     font-size: 1 em;
     line-height: 1.6;
-    background-color: #ffffff;
+    background-color:burlywood;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 a {
-    color: #007bff;
+    color:white;
     text-decoration: none;
 }
 a:hover {
@@ -94,7 +96,13 @@ input[type="text"], input[type="email"], textarea {
 
 }
 
+.navbar {
+    padding: 10px;;
+    text-align: center;
+    background-color: #007bff;
+    opacity: 0.9;
 
+}
 
 
 
